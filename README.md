@@ -1,16 +1,16 @@
 # EllipseSwing
 URCap sample that mainly demonstrates the principle of RobotPositionCallback, WaypointNodeConfig and PoseFactory
 
-<center><img src="Ellipse.jpg" alt="Universal Robot Ellipse" style="width: 80%;"/></center>
+<center><img src="ellipse.png" alt="Universal Robot Ellipse" style="width: 80%;"/></center>
 
 
 Ellipse Swing is a toy example, where a pose is used to define the center point for an ellipse-like movement. The movement is achieved by inserting a pre-configured MoveP program node containing pre-defined and named Waypoint nodes. This example demonstrates how to:
 
 * Obtain a pose for the robot position by requesting the user to define it using the Move Tab
-<center><img src="getPosition.jpg" alt="Universal Robot Ellipse" style="width: 80%;"/></center>
+<center><img src="getPosition.png" alt="Universal Robot Ellipse" style="width: 80%;"/></center>
 * Name waypoints
 * Request the user to move the robot to a given target position
-<center><img src="requestMove.jpg" alt="Universal Robot Ellipse" style="width: 80%;"/></center>
+<center><img src="requestMove.png" alt="Universal Robot Ellipse" style="width: 80%;"/></center>
 
 
 
